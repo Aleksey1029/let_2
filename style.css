@@ -97,38 +97,97 @@ section {
     background-size: calc(24vw + 89.2px);
 }
 
+.sec_block_photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.block_pho {
+    /* max-width: 450px;
+    width: 100%; */
+    width: calc(13.49vw + 277px);
+}
+
+#photo_1 {
+    width: calc(6.30vw + 206px);
+    padding-bottom: calc(1.1vw + 5.84px);
+}
+
+#photo_2 {
+    width: calc(5.19vw + 187px);
+    padding-bottom: calc(2.76vw + 0.39px);
+}
+
+#photo_3 {
+    width: calc(1.88vw + 167px);
+    margin-bottom: calc(1.43vw + 4.59px);
+    border: 2px dashed black; 
+}
+
+#photo_4 {
+    width: calc(4.75vw + 177px);
+    padding-top: calc(0.11vw + 9.58px);
+    border: 2px dashed black;
+    height: calc(4.75vw + 177px); 
+}
+
+.photo_text {   
+    color: rgb(34, 34, 34);
+    font-family: TT Hoves;
+    font-size: calc(1vw + 14.25px);
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: calc(1.10vw + 5.84px);
+}
+
+.photo_text2 {
+    color: rgb(34, 34, 34);
+    font-family: TT Hoves;
+    font-size: calc(1vw + 14.25px);
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+
+
 .timer {
     background-color: #6E3ABA;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: calc(4.42vw + 23.36px);
+    padding-bottom: calc(4.42vw + 23.36px);
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    max-width: 100%;
+    width: calc(100vw + 141px);
 }
 
 .timer h3 {
     color: var(--typo-white, #FFF);
-    font-family: "";
-    font-size: 52px;
+    font-family: "TT Hoves";
+    font-size: calc(2vw + 26px);
     font-weight: 700;
     letter-spacing: 1.56px;
     text-transform: uppercase;
-    margin-bottom: 52px;
-    width: calc(38vw + 186px);
+    margin-bottom: calc(4vw + 4.61px);
 }
 
 .timer_container {
     display: flex;
-    gap: 85px;
-    margin-bottom: 57px;
+    gap: calc(4.64vw + 6.78px);
+    margin-bottom: calc(4vw + 4.6px);
 }
 
 .timer_value {
     color: #2F1D4E;
     font-family: Chava;
-    font-size: 174px;
+    font-size: calc(12vw + 12.58px);
     font-weight: 400;
     line-height: 107.5%; /* 187.05px */
 }
@@ -137,7 +196,7 @@ section {
     color: #2F1D4E;
     text-align: center;
     font-family: "TT Hoves";
-    font-size: 27px;
+    font-size: calc(1.88vw + 2.92px);
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -158,7 +217,7 @@ section {
 
 .html_css_js h2 {
     padding-top: calc(11vw + 18px);
-    margin-bottom: calc(40vw - 129px);
+    margin-bottom: calc(2.87vw - 4.18px);
     color: rgb(34, 34, 34);
     font-family: TT Hoves;
     font-size: calc(2.65vw + 24px);
@@ -189,11 +248,11 @@ section {
 
 
 
-@media (min-width: 500px) {
+/* @media (min-width: 500px) {
     .html_css_js h3 {
         padding-right: 120px;
     }
-}
+} */
 
 
 
